@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>MENU</title>
+
+        <script>
+            $(document).ready(function () {
+                $("#myiframe").load(function () { setTimeout(function () { $(".inputforfocus").focus(); }, 100); });
+            });
+        </script>
+    </head>
+
+    <body>
+        <div>
+            <iframe src="files/mm.pdf" frameborder="0" id="myiframe" width="100%" height="1000"> </iframe>
+        </div>
+    </body>
+</html>
